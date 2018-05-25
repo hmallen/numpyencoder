@@ -4,6 +4,8 @@ Custom Python JSON encoder for handling Numpy data types.
 
 <b>Example Use:</b>
 ```python
+from numpyencoder import NumpyEncoder
+
 numpy_data = np.array([0, 1, 2, 3])
 
 with open(json_file, 'w') as file:
