@@ -1,0 +1,9 @@
+README.md
+setup.py
+numpyencoder/__init__.py
+numpyencoder/numpyencoder.py
+numpyencoder.egg-info/PKG-INFO
+numpyencoder.egg-info/SOURCES.txt
+numpyencoder.egg-info/dependency_links.txt
+numpyencoder.egg-info/requires.txt
+numpyencoder.egg-info/top_level.txt
