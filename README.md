@@ -2,7 +2,8 @@
 
 Custom Python JSON encoder for handling Numpy data types.
 
-<b>Example Use:</b>
+**Example Use:**
+
 ```python
 from numpyencoder import NumpyEncoder
 
