@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: numpyencoder
-Version: 0.1.0
+Version: 0.2.0
 Summary: Python JSON encoder for handling Numpy data types.
 Home-page: https://github.com/hmallen/numpyencoder
 Author: Hunter M. Allen
@@ -10,7 +10,8 @@ Description: # numpyencoder
         
         Custom Python JSON encoder for handling Numpy data types.
         
-        <b>Example Use:</b>
+        **Example Use:**
+        
         ```python
         from numpyencoder import NumpyEncoder
         
