@@ -28,7 +28,7 @@ class NumpyEncoder(json.JSONEncoder):
         elif isinstance(obj, (np.float16, np.float32, np.float64)):
             return float(obj)
 
-        elif isinstance(obj, (np.complex_, np.complex64, np.complex128)):
+        elif isinstance(obj, (np.complex64, np.complex128)):
             return {"real": obj.real, "imag": obj.imag}
 
         elif isinstance(obj, (np.ndarray,)):
