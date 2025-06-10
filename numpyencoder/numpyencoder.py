@@ -5,7 +5,7 @@ import numpy as np
 
 
 # Both np.float_ and np.complex_ were deprecated in Numpy 2.0.0
-if np.__version__ < "2.0.0":
+if parse_version(np.__version__) < parse_version("2.0.0"):
     TYPES = {
         "float": (np.float_, np.float16, np.float32, np.float64),
         "complex": (np.complex_, np.complex64, np.complex128),
