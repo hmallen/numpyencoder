@@ -10,7 +10,10 @@ setup(
     author_email="allenhm@gmail.com",
     license="MIT",
     packages=["numpyencoder"],
-    install_requires=["numpy>=1.14.3"],
+    install_requires=[
+        "numpy>=1.14.3",
+        "packaging>=20.0",
+    ],
     description="Python JSON encoder for handling Numpy data types.",
     long_description=long_description,
     long_description_content_type="text/markdown",
