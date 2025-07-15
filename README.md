@@ -20,3 +20,10 @@ with open(json_file, 'w') as file:
         cls=NumpyEncoder
     )
 ```
+
+## Installation
+
+```
+pip install numpyencoder==0.3.2
+```
+
