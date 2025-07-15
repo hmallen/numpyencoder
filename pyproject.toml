@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numpyencoder"
+version = "0.3.2"
+description = "Python JSON encoder for handling Numpy data types."
+readme = { file = "README.md", content-type = "text/markdown" }
+
+requires-python = ">=3.6"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Hunter M. Allen", email = "allenhm@gmail.com" },
+]
+
+keywords = ["numpy", "json", "encoder"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy>=1.14.3",
+  "packaging>=20.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/hmallen/numpyencoder"
+
+[tool.setuptools.packages.find]
+include = ["numpyencoder*"]
