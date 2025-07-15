@@ -10,6 +10,7 @@ readme = { file = "README.md", content-type = "text/markdown" }
 
 requires-python = ">=3.6"
 license = "MIT"
+license-files = ["LICENSE"]
 
 authors = [
   { name = "Hunter M. Allen", email = "allenhm@gmail.com" },
@@ -32,6 +33,3 @@ Homepage = "https://github.com/hmallen/numpyencoder"
 
 [tool.setuptools.packages.find]
 include = ["numpyencoder*"]
-
-[tool.setuptools]
-license-files = ["LICENSE"]
